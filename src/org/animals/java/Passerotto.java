@@ -2,12 +2,12 @@ package org.animals.java;
 
 public class Passerotto extends Animale{
     @Override
-    public void verso() {
-        System.out.println("verso Passerotto.");
+    public String verso() {
+        return "verso Passerotto.";
     }
 
     @Override
-    public void mangia() {
-        System.out.println("cibo Passerotto.");
+    public String mangia() {
+        return "cibo Passerotto.";
     }
 }

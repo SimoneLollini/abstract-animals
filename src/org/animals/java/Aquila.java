@@ -2,12 +2,13 @@ package org.animals.java;
 
 public class Aquila extends Animale{
     @Override
-    public void verso() {
-        System.out.println("verso Aquila.");
+    public String verso() {
+        return "verso Aquila.";
+
     }
 
     @Override
-    public void mangia() {
-        System.out.println("cibo Aquila.");
+    public String mangia() {
+        return "cibo Aquila.";
     }
 }

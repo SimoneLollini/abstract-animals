@@ -4,12 +4,12 @@ package org.animals.java;
 //Una volta create le classi, nel programma istanziare alcuni animali e utilizzare i metodi implementati.
 public abstract class Animale {
 
-    public void dormi(){
-        System.out.println("Zzzzzz");
+    public String dormi(){
+        return "Zzzzzz";
     }
 
-    public abstract void verso();
+    public abstract String verso();
 
-    public abstract void mangia();
+    public abstract String mangia();
 
 }
