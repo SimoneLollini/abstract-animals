@@ -1,4 +1,4 @@
-package org.animales.java;
+package org.animals.java;
 
 public class Passerotto extends Animale{
     @Override

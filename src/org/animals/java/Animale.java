@@ -1,4 +1,4 @@
-package org.animales.java;
+package org.animals.java;
 //Esercizio 1 : classi astratte
 
 //Una volta create le classi, nel programma istanziare alcuni animali e utilizzare i metodi implementati.
