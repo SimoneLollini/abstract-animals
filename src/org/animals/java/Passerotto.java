@@ -1,13 +1,18 @@
 package org.animals.java;
 
-public class Passerotto extends Animale{
+public class Passerotto extends Animale implements IVolante{
     @Override
-    public String verso() {
-        return "verso Passerotto.";
+    public void verso() {
+        System.out.println("verso Passerotto.");
     }
 
     @Override
-    public String mangia() {
-        return "cibo Passerotto.";
+    public void mangia() {
+        System.out.println("cibo Passerotto.");
+    }
+
+    @Override
+    public void vola() {
+        System.out.println("Passerotto sta volando");
     }
 }

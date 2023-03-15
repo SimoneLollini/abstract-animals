@@ -1,13 +1,18 @@
 package org.animals.java;
 
-public class Delfino extends Animale{
+public class Delfino extends Animale implements INuotante{
     @Override
-    public String verso() {
-        return  "verso Delfino.";
+    public void verso() {
+        System.out.println("verso Delfino.");
     }
 
     @Override
-    public String mangia() {
-        return "cibo Delfino.";
+    public void mangia() {
+        System.out.println("cibo Delfino.");
+    }
+
+    @Override
+    public void nuota() {
+        System.out.println("Delfino sta nuotando");
     }
 }
